@@ -1,5 +1,5 @@
 import time
-hour = int(time.strftime('%H'))  # Get hour as integer
+hour = int(time.strftime('%H'))  
 print(hour)
 
 if hour <= 12:
@@ -7,4 +7,5 @@ if hour <= 12:
 elif hour <= 18:
     print("Good Afternoon")
     
+
  
